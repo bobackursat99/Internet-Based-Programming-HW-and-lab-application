@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+<form>
+    <!-- Hidden Input -->
+    <input type="hidden" name="secretValue" value="42">
+
+    <!-- Tel Input -->
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number">
+
+    <!-- Email Input -->
+    <label for="emailAddress">Email Address:</label>
+    <input type="email" id="emailAddress" name="emailAddress" placeholder="Enter your email address">
+
+    <!-- Number Input -->
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+
+    <!-- Range Input -->
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="1" value="50">
+
+    <!-- Search Input -->
+    <label for="searchQuery">Search Query:</label>
+    <input type="search" id="searchQuery" name="searchQuery" placeholder="Enter your search query">
+
+    <!-- Image Input -->
+    <input type="image" src="submit.png" alt="Submit">
+
+    <!-- Week Input -->
+    <label for="selectedWeek">Selected Week:</label>
+    <input type="week" id="selectedWeek" name="selectedWeek">
+
+    <!-- URL Input -->
+    <label for="websiteUrl">Website URL:</label>
+    <input type="url" id="websiteUrl" name="websiteUrl" placeholder="Enter a website URL">
+
+    <!-- DateTime-Local Input -->
+    <label for="eventDateTime">Event Date and Time:</label>
+    <input type="datetime-local" id="eventDateTime" name="eventDateTime">
+
+    <!-- Month Input -->
+    <label for="selectedMonth">Selected Month:</label>
+    <input type="month" id="selectedMonth" name="selectedMonth">
+</form>
+</body>
+</html>
